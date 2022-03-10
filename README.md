@@ -1,9 +1,10 @@
 # Drone Maintenance Scripts
 Drone maintenance and optimization scripts
 
+## Requirements
+- (SQLite3) SQLite 3.8.3 or above
+
 ## Usage
-- Copy the appropriate SQL file from `/lib` to `/bin`.
-- Copy the appropriate shell script from `/lib` to `/bin`.
-- Rename the copied SQL file to `start.sql`.
-- Rename the copied shell script to `start.sh`.
-- Execute `/bin/start.sh`.
+- `cp -p lib/{engine}.sh bin/start.sh`
+- `cp -p lib/{engine}.sql bin/start.sql`
+- `bin/start.sh`
