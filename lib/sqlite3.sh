@@ -1,3 +1,3 @@
 #!/bin/sh
 
-/usr/local/bin/sqlite3 /var/lib/drone/database.sqlite < start.sql
+sudo /usr/local/bin/sqlite3 /var/lib/drone/database.sqlite < $(dirname $0)/start.sql
