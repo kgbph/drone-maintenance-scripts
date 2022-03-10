@@ -26,3 +26,4 @@ WHERE
 		build_id
 	FROM
 		n_build_ids_per_repo);
+VACUUM;
